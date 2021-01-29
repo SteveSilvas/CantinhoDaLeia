@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FABDBD"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imglog"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/logo1"
+        />
+
+    <TextView
+        android:id="@+id/txtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/imglog"
+        android:background="#FF3232"
+        android:text="Cantinho Da Léia!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtitulo"
+        android:layout_marginTop="5pt"
+        android:text="Cadastrar"
+        android:textSize="24dp"
+        app:backgroundTint="#F64B4B" />
+
+    <Button
+        android:id="@+id/btnCardapio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCadastrar"
+        android:layout_marginTop="5dp"
+        android:text="Cardápio"
+        android:textSize="24dp"
+        app:backgroundTint="#F64B4B" />
+
+    <Button
+        android:id="@+id/btnContate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCardapio"
+        android:layout_marginTop="5dp"
+        android:text="Contate-nos"
+        android:textSize="24dp"
+        app:backgroundTint="#F64B4B" />
+
+    <Button
+        android:id="@+id/btnEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnContate"
+        android:layout_marginTop="5dp"
+        android:text="Endereço"
+        android:textSize="24dp"
+        app:backgroundTint="#F64B4B" />
+
+    <Button
+        android:id="@+id/btnNossaHis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEndereco"
+        android:layout_marginTop="5dp"
+        android:text="Nossa História"
+        android:textSize="24dp"
+        app:backgroundTint="#F64B4B" />
+
+    <Button
+        android:id="@+id/btnConhecanois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNossaHis"
+        android:layout_marginTop="5dp"
+        android:text="Conheça o Cantinho"
+        android:textSize="24dp"
+        app:backgroundTint="#F64B4B" />
+
+
+</RelativeLayout>

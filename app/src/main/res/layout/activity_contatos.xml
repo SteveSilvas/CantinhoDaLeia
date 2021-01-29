@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contatos"
+    android:background="#FABDBD">
+    <ImageView
+        android:id="@+id/imglog"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/logo1"
+        />
+
+    <TextView
+        android:id="@+id/txtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_toRightOf="@+id/imglog"
+        android:background="#FF3232"
+        android:text="Cantinho Da Léia!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:padding="20dp"/>
+    <ImageView
+        android:id="@+id/imgtel"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/imgtel"
+        android:layout_below="@+id/txtitulo"
+        />
+
+    <TextView
+        android:id="@+id/txtitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtitulo"
+        android:layout_toRightOf="@+id/imgtel"
+        android:background="#FF3232"
+        android:text="Nosso número"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtitulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtitulo2"
+        android:layout_marginTop="5dp"
+        android:background="#FF3232"
+        android:text="Nosso número"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtitulo4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtitulo3"
+               android:layout_marginTop="5dp"
+        android:background="#FF3232"
+        android:text="Redes Sociais"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/txtitulo5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtitulo4"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="5dp"
+        android:background="#FF3232"
+        android:text="Ifood"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/txtitulo5"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF3232"
+        android:text="Voltar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+</RelativeLayout>

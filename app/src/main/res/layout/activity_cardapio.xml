@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cardapio"
+    android:background="#FABDBD">
+    <ImageView
+        android:id="@+id/imglog"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/logo1"
+
+        />
+
+    <TextView
+        android:id="@+id/txtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/imglog"
+        android:background="#FF3232"
+        android:text="Cantinho Da Léia!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:padding="20dp"/>
+    <TextView
+        android:id="@+id/txtitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtitulo"
+        android:layout_marginTop="5dp"
+        android:background="#FF3232"
+        android:text="Cardápios"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imgcardapioqi"
+        android:layout_width="wrap_content"
+        android:layout_height="303dp"
+        android:layout_below="@+id/txtitulo2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/cardapioqui" />
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imgcardapioqi"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#FF3232"
+        android:text="Voltar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+</RelativeLayout>
